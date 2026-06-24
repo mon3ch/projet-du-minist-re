@@ -1,0 +1,95 @@
+!important;
+  background-color: rgba(0, 0, 0, 0.5) !important; /* الكحل الشفاف */
+  z-index: 1040 !important; /* أقل شوية من المودال */
+}
+/* Modern Table */
+.table-modern {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.table-modern thead {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table-modern tbody tr {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+  border-radius: 10px;
+}
+
+.table-modern tbody tr:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.table-modern td, .table-modern th {
+  border: none;
+  padding: 14px 16px;
+  vertical-align: middle;
+}
+
+/* Action Buttons */
+.action-btn {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  transition: 0.2s;
+}
+
+.action-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Modern Users Table */
+.table-modern {
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+.table-modern thead {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.table-modern tbody tr {
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.table-modern tbody tr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.table-modern td, .table-modern th {
+  border: none;
+  padding: 16px;
+  vertical-align: middle;
+}
+
+/* Action Buttons */
+.action-btn {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px;
+  transition: 0.25s;
+}
+
+.action-btn:hover {
+  transform: scale(1.15);
+}
